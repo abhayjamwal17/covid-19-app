@@ -1,0 +1,169 @@
+#root {
+  margin-bottom: 50px;
+}
+/*****************Essentials Page Section Start*************************/
+.essentials-header {
+  margin-top: 5%;
+}
+.essentials-form {
+  margin-top: 4%;
+}
+.essentials-input {
+  width: 65%;
+  border-style: inset;
+  border-width: 10%;
+  font-size: 2rem;
+}
+.essentials-button {
+  margin-top: 1%;
+  text-align: center;
+}
+.essentials-or {
+  margin-top: 1%;
+}
+.no-result {
+  margin-top: 2%;
+}
+.card {
+  width: 40%;
+  margin: 5% auto;
+}
+/*****************Essentials Page Section End*************************/
+
+/*****************Colour Section Start*************************/
+.confirmed,
+.activeCases,
+.recovered,
+.deceased {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+.confirmed {
+  color: #e84a5f;
+}
+.activeCases {
+  color: #1b6ca8;
+}
+.recovered {
+  color: #79d70f;
+}
+.deceased {
+  color: #393e46;
+}
+
+.confirmed:hover,
+.activeCases:hover,
+.recovered:hover,
+.deceased:hover {
+  color: white;
+}
+.confirmed:hover {
+  background-color: #e84a5f;
+}
+.activeCases:hover {
+  background-color: #1b6ca8;
+}
+.recovered:hover {
+  background-color: #79d70f;
+}
+.deceased:hover {
+  background-color: #393e46;
+}
+.color {
+  background-color: #e84a5f;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+.green {
+  color: green;
+}
+/*****************Colour Section End*************************/
+.heading {
+  margin: 3% auto;
+}
+.banner {
+  display: inline-block;
+}
+.footer {
+  background-color: #212529;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.update {
+  font-size: 12px;
+}
+.title {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+}
+.data {
+  padding: 10px;
+  border-bottom: #343a40;
+  border-width: 1px;
+  border-style: solid none;
+}
+.sub {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.subdata {
+  background-color: #dcdcdc;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .essentials-input {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .card {
+    width: 80%;
+  }
+}
+@media (min-width: 480px) and (max-width: 599px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .essentials-input {
+    width: 85%;
+    font-size: 1.6rem;
+  }
+  .card {
+    width: 80%;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .essentials-input {
+    width: 80%;
+    font-size: 1.7rem;
+  }
+  .card {
+    width: 70%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .essentials-input {
+    width: 75%;
+    font-size: 1.8rem;
+  }
+  .card {
+    width: 60%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* big landscape tablets, laptops, and desktops */
+  .essentials-input {
+    width: 70%;
+    font-size: 1.9rem;
+  }
+  .card {
+    width: 45%;
+  }
+}
